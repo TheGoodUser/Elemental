@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+@media screen and (max-width: 768px) {
+
+  body, html {
+    background-color: #0F172A;
+    color: white;
+  }
+
+  #head {
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 5px;
+  }
+  
+  #head i {
+    font-size: 1.3rem;
+  }
+
+  #head #r1{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    background-color: rgb(30, 41, 59);
+    padding: 12px 12px 6px 12px;
+    justify-content: center;
+    border-radius: 10px;
+  }
+
+  #head #r2 {
+    background-color: rgb(30, 41, 59);
+    padding: 20px;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+
+  #head h1 {
+    font-size: 1.3em;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+  }
+
+  #askai {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #askai #val {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 10px 1.5vw;
+    gap: 20px;
+  }
+
+  #askai #val input {
+    width: 65vw;
+    padding: 0 10px;
+    border-radius: 10px;
+    border: 1px solid white;
+    background-color: #0F172A;
+    height: auto;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+  }
+
+  #askai #val input[type="text"] {
+    color: white;
+  }
+
+  #askai #val input:focus {
+    border: 1px solid white;
+    outline: none;
+    background-color: #0F172A;
+  }
+
+  #askai #val button {
+    background-color: rgb(30, 41, 59);
+    outline: none;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    height: 70px;
+  }
+
+  #askai #val button i {
+    font-size: 1.3rem;
+    color: white;
+  }
+
+  #askai #response {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px 1.5vw;
+    /* background-color: red; */
+  }
+
+  #askai p {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: transparent;
+    color: white;
+  }
+
+  #search {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-between;
+    margin: 10px 1.5vw;
+  }
+
+}
