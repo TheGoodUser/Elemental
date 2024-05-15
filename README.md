@@ -1,5 +1,7 @@
 # Elemental: Your Intuitive Weather Companion ☀️☁️🌧️
 
+![Elemental-logo](https://raw.githubusercontent.com/TheGoodUser/Elemental/main/ss-n-mp4/elemental-logo.png)
+
 Elemental is a simple yet beautiful weather forecasting app designed to bring you accurate and visually engaging weather updates right at your fingertips. With its intuitive interface and AI-response-like feature, Elemental makes checking the weather an enjoyable experience.
 
 ## Key Features
@@ -28,10 +30,6 @@ Elemental is a simple yet beautiful weather forecasting app designed to bring yo
 *   **Framework:** Apache Cordova (PhoneGap) – Allows building cross-platform apps using web technologies (HTML, CSS, JavaScript).
 *   **API:** OpenWeatherMap API – Provides comprehensive and accurate weather data.
 *   **Other Libraries/Frameworks:**  Use of any additional libraries (e.g., for UI elements, data fetching) can be listed here.
-
-## Screenshots
-
-![Elemental-logo](https://raw.githubusercontent.com/TheGoodUser/Elemental/main/ss-n-mp4/elemental-logo.png)
 
 ## Contributing
 
